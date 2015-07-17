@@ -14,11 +14,15 @@
  * limitations under the License.
  */
 
-package nl.conspect.legacy.repository.impl;
+package nl.conspect.legacy.user;
+
 
 /**
- * @author marten
+ * Created by marten on 17-04-15.
  */
-public class JpaOrderRepositoryImpl {
+public interface UserService {
 
+    void save(User user);
+    void update(User user);
+    User login(String username, String password);
 }

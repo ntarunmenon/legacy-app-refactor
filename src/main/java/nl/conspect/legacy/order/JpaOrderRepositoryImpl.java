@@ -14,31 +14,11 @@
  * limitations under the License.
  */
 
-package nl.conspect.legacy.web;
-
-import nl.conspect.legacy.domain.User;
+package nl.conspect.legacy.order;
 
 /**
  * @author marten
  */
-public class NewUserRegistrationForm extends User {
+public class JpaOrderRepositoryImpl {
 
-    private String passwordValidation;
-    private String emailValidation;
-
-    public String getEmailValidation() {
-        return emailValidation;
-    }
-
-    public void setEmailValidation(String emailValidation) {
-        this.emailValidation = emailValidation;
-    }
-
-    public String getPasswordValidation() {
-        return passwordValidation;
-    }
-
-    public void setPasswordValidation(String passwordValidation) {
-        this.passwordValidation = passwordValidation;
-    }
 }

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package nl.conspect.legacy.domain;
+package nl.conspect.legacy.user;
 
 import java.util.ArrayList;
 import java.util.List;

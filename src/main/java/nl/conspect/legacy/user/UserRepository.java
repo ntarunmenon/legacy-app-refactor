@@ -14,10 +14,20 @@
  * limitations under the License.
  */
 
-package nl.conspect.legacy.service;
+package nl.conspect.legacy.user;
+
 
 /**
- * Created by marten on 28-04-15.
+ * Created by marten on 17-04-15.
  */
-public interface OrderService {
+public interface UserRepository {
+
+   void save(User user);
+
+   User find(long id);
+   User findWithUsername(String username);
+
+   void remove(User user);
+
+
 }

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package nl.conspect.legacy.service;
+package nl.conspect.legacy.order;
 
 /**
- * @author Marten Deinum
+ * @author marten
  */
-public interface InventoryService {
+public interface OrderRepository {
 }
